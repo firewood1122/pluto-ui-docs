@@ -28,7 +28,7 @@ import '@plutojs/button/build/index.css';
 
 ### Props配置
 | 参数 | 说明 | 类型 | 可选值 | 默认值 | 必填 |
-| :-- | :-- | :-- | :-- | :-- | :-- |
+| :-- | :-- | :-- | :-- | :-- | :--: |
 | type | 类型 | String | button/submit/rest | button | 否 |
 | className | 自定义样式名 | String | | | 否 |
 | disabled | 是否禁用 | Boolean | true/false | false | 否 |
