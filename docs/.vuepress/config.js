@@ -1,5 +1,9 @@
 module.exports = {
   title: 'Pluto-UI',
+  description: 'Pluto-UI是基于React.js实现的移动端组件库',
+  head: [
+    ['link', { rel: 'icon', href: '/img/logo.png' }]
+  ],
   themeConfig: {
     logo: '/img/logo.png',
     nav: [
