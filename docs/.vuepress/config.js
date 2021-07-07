@@ -8,7 +8,7 @@ module.exports = {
     logo: '/img/logo.png',
     nav: [
       { text: '文档', link: '/' },
-      { text: '示例', link: '/example/' },
+      { text: '示例', link: 'http://pluto.smallpig.cn/' },
     ],
     sidebar: [
       {
