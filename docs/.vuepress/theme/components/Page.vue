@@ -10,6 +10,7 @@
     <div class="pluto-example" v-if="exampleUrl">
       <div class="pluto-display-wrapper">
         <iframe :src="exampleUrl" frameborder="0" scrolling="no"></iframe>
+        <a class="pluto-display-action" :href="exampleUrl" target="_blank">查看示例</a>
       </div>
     </div>
   </div>
@@ -55,6 +56,11 @@ export default {
 
     iframe {
       height: 25rem;
+    }
+    .pluto-display-action {
+      margin: 20px auto 0;
+      width: 80px;
+      display: block;
     }
   }
 }
