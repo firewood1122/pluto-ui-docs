@@ -23,5 +23,5 @@ Loading.show('提交中');
 
 ### 隐藏loading
 ``` js
-Loadding.hide();
+Loading.hide();
 ```
