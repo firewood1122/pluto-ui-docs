@@ -66,8 +66,14 @@ module.exports = {
             title: '多媒体',
             collapsable: false,
             children: [
-              '/component/camera/',
               '/component/video/',
+            ]
+          },
+          {
+            title: '实验室',
+            collapsable: false,
+            children: [
+              '/component/camera/',
             ]
           }
         ],
