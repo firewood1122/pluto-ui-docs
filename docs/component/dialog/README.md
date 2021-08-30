@@ -29,3 +29,9 @@ Dialog.confirm('这是一个Confirm对话框，通常用于二次确认', () => 
   alert('点击了确定');
 });
 ```
+
+### 实例方法
+| 名称 | 说明 | 参数 |
+| :-- | :-- | :--: |
+| alert | 提示对话框 | (text: string, confirm: Function, confirmText = '确定') |
+| confirm | 确认对话框 | (text: string, confirm: Function, cancelText: string = '取消', confirmText = '确定', cancel = () => { }) |
