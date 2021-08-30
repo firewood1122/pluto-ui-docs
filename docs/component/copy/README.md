@@ -24,3 +24,9 @@ Copy.isSupported();
 ``` js
 Copy.copy(ele: HTMLElement);
 ```
+
+### 实例方法
+| 名称 | 说明 | 参数 |
+| :-- | :-- | :--: |
+| isSupported | 是否支持复制 | - |
+| copy | 复制节点文本内容 | (ele: HTMLElement) |

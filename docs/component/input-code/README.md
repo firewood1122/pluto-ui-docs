@@ -25,9 +25,9 @@ import '@plutojs/input-code/build/index.css';
 | 参数 | 说明 | 类型 | 可选值 | 默认值 | 必填 |
 | :-- | :-- | :-- | :-- | :-- | :--: |
 | count | 验证码位数 | Number || 4 | 否 |
-| onChange | 输入回调方法 | Function || 无 | 否 |
+| onChange | 输入回调方法 | Function || - | 否 |
 
 ### 实例方法
 | 名称 | 说明 | 参数 |
 | :-- | :-- | :--: |
-| clear | 清空&聚焦输入框 | 无 |
+| clear | 清空&聚焦输入框 | - |

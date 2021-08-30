@@ -25,3 +25,9 @@ Loading.show('提交中');
 ``` js
 Loading.hide();
 ```
+
+### 实例方法
+| 名称 | 说明 | 参数 |
+| :-- | :-- | :--: |
+| show | 显示loading | (msg: String) |
+| hide | 隐藏loading | - |

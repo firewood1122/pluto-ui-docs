@@ -21,7 +21,13 @@ import '@plutojs/toast/build/index.css';
 Toast.info('你点击了按钮');
 ```
 
-### 错误提示
+### 异常提示
 ``` js
 Toast.error(new Error('发生了错误'));
 ```
+
+### 实例方法
+| 名称 | 说明 | 参数 |
+| :-- | :-- | :--: |
+| info | 正常提示 | (msg: String) |
+| error | 异常提示 | (err: Error) |

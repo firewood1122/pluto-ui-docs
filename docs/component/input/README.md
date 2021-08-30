@@ -30,5 +30,5 @@ const [text, setText] = useState('');
 | placeholder | 占位文字 | String ||| 否 |
 | onChange | 输入响应方法 | Function ||| 否 |
 | onFocus | 聚焦响应方法 | Function ||| 否 |
-| maxLength | 最大输入长度 | Number || 无 | 否 |
+| maxLength | 最大输入长度 | Number || - | 否 |
 | offsetTop | 顶部预留空间 | Number || 100 | 否 |

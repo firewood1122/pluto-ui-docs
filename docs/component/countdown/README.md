@@ -23,6 +23,6 @@ import Countdown from '@plutojs/countdown';
 ### Props配置
 | 参数 | 说明 | 类型 | 可选值 | 默认值 | 必填 |
 | :-- | :-- | :-- | :-- | :-- | :--: |
-| leftSecond | 剩余时间(秒) | Number || 无 | 是 |
+| leftSecond | 剩余时间(秒) | Number || - | 是 |
 | renderChildren | 内容构造方法 | (hour: number, min: number, second: number) => React.ReactNode || `${hour}小时${min}分${second}秒` | 否 |
-| done | 结束回调方法 | Function || 无 | 否 |
+| done | 结束回调方法 | Function || - | 否 |

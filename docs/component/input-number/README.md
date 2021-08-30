@@ -24,8 +24,8 @@ import '@plutojs/input-number/build/index.css';
 ### Props配置
 | 参数 | 说明 | 类型 | 可选值 | 默认值 | 必填 |
 | :-- | :-- | :-- | :-- | :-- | :--: |
-| default | 默认值 | Number || 无 | 否 |
+| default | 默认值 | Number || - | 否 |
 | min | 最小值 | Number || 1 | 否 |
-| max | 最大值 | Number || 无 | 否 |
+| max | 最大值 | Number || - | 否 |
 | keyboard | 可键盘输入 | Boolean || true | 否 |
-| onChange | 值变化回调方法 | Function || 无 | 是 |
+| onChange | 值变化回调方法 | Function || - | 是 |

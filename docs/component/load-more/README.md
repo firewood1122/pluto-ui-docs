@@ -36,5 +36,5 @@ import LoadMore from '@plutojs/load-more';
 | :-- | :-- | :-- | :-- | :-- | :--: |
 | bodyScroll | 是否页面body滚动 | Boolean || true | 否 |
 | scrollThreshold | 滚动边界系数 | 小于或等于1的正小数 || 1 | 否 |
-| loadMore | 响应方法 | Function || 无 | 否 |
+| loadMore | 响应方法 | Function || - | 否 |
 | debounceTime | 防抖间隔时间 | number || 1000 | 否 |

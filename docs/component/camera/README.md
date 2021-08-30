@@ -30,4 +30,4 @@ const onChange = (files) => {
 | :-- | :-- | :-- | :-- | :-- | :--: |
 | text | 显示文案 | string || 开始录制 | 否 |
 | type | 文件类型 | video/image || video | 否 |
-| onChange | 回调方法 | Function || 无 | 否 |
+| onChange | 回调方法 | Function || - | 否 |
