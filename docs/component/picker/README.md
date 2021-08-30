@@ -99,11 +99,11 @@ import '@plutojs/picker/build/index.css';
 
 ### Props配置
 | 参数 | 说明 | 类型 | 可选值 | 默认值 | 必填 |
-| :--: | :--: | :--: | :--: | :--: | :--: |
-| isOpened | 是否显示 | Boolean | 否 | 无 | 是 |
-| onCancel | 取消回调方法 | Function | 否 | 无 | 是 |
-| onConfirm | 确定回调方法 | Function | 否 | 无 | 是 |
-| items | 可选择节点 | Array<{ text: string, value: any }> | 否 | [] | 是 |
-| selected | 已选择节点 | Array<{ text: string, value: any }> | 是 | [] | 否 |
-| group | 可选择列数 | Number | 是 | 1 | 否 |
-| renderItem | 选择项渲染方法 | Function(item, index) | 是 | 无 | 否 |
+| :-- | :-- | :-- | :-- | :-- | :--: |
+| isOpened | 是否显示 | Boolean || 无 | 是 |
+| onCancel | 取消回调方法 | Function || 无 | 是 |
+| onConfirm | 确定回调方法 | Function || 无 | 是 |
+| items | 可选择节点 | Array<{ text: string, value: any }> || [] | 是 |
+| selected | 已选择节点 | Array<{ text: string, value: any }> || [] | 否 |
+| group | 可选择列数 | Number || 1 | 否 |
+| renderItem | 选择项渲染方法 | Function(item, index) || 无 | 否 |
