@@ -34,33 +34,37 @@ export default {
   display: block;
 
   &.pluto-main {
-    padding-right 30rem;
+    padding-right: 30rem;
   }
 }
+
 .pluto-example {
   position: fixed;
-  top: 3.6rem;
-  right 0;
+  top: 6.6rem;
+  right: 0;
   bottom: 0;
   padding-bottom: 2rem;
   width: 29.8rem;
-  overflow-y: auto;
+  overflow: auto;
 
   .pluto-display-wrapper {
-    margin: 4rem auto 0;
-    padding: 8rem 2.5rem 0 1.5rem;
+    margin: 0 auto;
+    padding: 8rem 1.5rem 0 1.5rem;
     width: 18rem;
     height: 43rem;
     background: url('../public/img/phone.png') no-repeat;
     background-size: contain;
 
     iframe {
+      width: 100%;
       height: 25rem;
     }
+
     .pluto-display-action {
       margin: 20px auto 0;
       width: 80px;
       display: block;
+      text-align: center;
     }
   }
 }
