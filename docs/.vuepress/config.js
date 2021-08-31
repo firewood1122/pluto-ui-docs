@@ -9,6 +9,7 @@ module.exports = {
     nav: [
       { text: '文档', link: '/' },
       { text: '示例', link: 'http://pluto.smallpig.cn/' },
+      { text: 'Github', link: 'https://github.com/firewood1122/plutojs' },
     ],
     sidebar: [
       {
