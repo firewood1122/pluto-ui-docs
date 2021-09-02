@@ -32,6 +32,7 @@ module.exports = {
               '/component/carousel/',
               '/component/countdown/',
               '/component/load-more/',
+              '/component/progress-bar/',
               '/component/safe-area/',
               '/component/copy/',
             ]
