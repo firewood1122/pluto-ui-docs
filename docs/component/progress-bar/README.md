@@ -31,4 +31,4 @@ import '@plutojs/progress-bar/build/index.css';
 | contentColor | 底部圆环颜色 | String || #EAEFF3 | 否 |
 | barLineWidth | 进度条宽度（物理像素） | Number || 20 | 否 |
 | contentLineWidth | 底部圆环宽度（物理像素） | Number || 32 | 否 |
-| percent | 进度条百分比 | Number || 1 | 否 |
+| percent | 进度条百分比 | Number || 100 | 否 |
