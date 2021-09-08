@@ -1,6 +1,6 @@
 ---
-title: LoadMore 加载更多 
-exampleUrl: http://pluto.smallpig.cn/iframe.html?id=%E6%BB%9A%E5%8A%A8-loadmore-%E4%B8%8B%E6%8B%89%E5%8A%A0%E8%BD%BD--story-1
+title: LoadMore 加载更多
+exampleUrl: http://pluto.smallpig.cn/iframe.html?id=%E6%BB%9A%E5%8A%A8-loadmore-%E5%8A%A0%E8%BD%BD%E6%9B%B4%E5%A4%9A--story-1
 ---
 
 # LoadMore 加载更多
