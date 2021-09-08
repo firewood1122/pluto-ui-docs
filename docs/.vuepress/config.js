@@ -29,12 +29,19 @@ module.exports = {
             collapsable: false,
             children: [
               '/component/button/',
-              '/component/carousel/',
               '/component/countdown/',
-              '/component/load-more/',
               '/component/progress-bar/',
               '/component/safe-area/',
               '/component/copy/',
+            ]
+          },
+          {
+            title: '滚动',
+            collapsable: false,
+            children: [
+              '/component/carousel/',
+              '/component/load-more/',
+              '/component/swipe/',
             ]
           },
           {

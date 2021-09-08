@@ -1,6 +1,6 @@
 ---
 title: Video 播放视频
-exampleUrl: http://pluto.smallpig.cn/iframe.html?id=%E8%A7%86%E5%9B%BE%E7%BB%84%E4%BB%B6-video-%E8%A7%86%E9%A2%91%E7%BB%84%E4%BB%B6--story-1
+exampleUrl: http://pluto.smallpig.cn/iframe.html?id=%E5%A4%9A%E5%AA%92%E4%BD%93-video-%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91--story-1
 ---
 
 # Video 播放视频
@@ -26,8 +26,8 @@ import '@plutojs/video/build/index.css';
 ### Props配置
 | 参数 | 说明 | 类型 | 可选值 | 默认值 | 必填 |
 | :-- | :-- | :-- | :-- | :-- | :--: |
-| coverUrl | 封面图片链接 | String || - | 是 |
-| videoUrl | 视频链接 | String || - | 是 |
-| controls | 是否有控制条 | Boolean || true | 否 |
-| playsInline | 播放时局域播放 | Boolean || true | 否 |
-| onClose | 视频关闭回调方法 | Function || - | 否 |
+| coverUrl | 封面图片链接 | String | - | - | 是 |
+| videoUrl | 视频链接 | String | - | - | 是 |
+| controls | 是否有控制条 | Boolean | - | true | 否 |
+| playsInline | 播放时局域播放 | Boolean | - | true | 否 |
+| onClose | 视频关闭回调方法 | Function | - | - | 否 |

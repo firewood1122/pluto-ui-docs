@@ -1,6 +1,6 @@
 ---
 title: Header 页头
-exampleUrl: http://pluto.smallpig.cn/iframe.html?id=%E5%9F%BA%E7%A1%80%E7%BB%84%E4%BB%B6-header-%E5%A4%B4%E9%83%A8%E5%AF%BC%E8%88%AA--story-1
+exampleUrl: http://pluto.smallpig.cn/iframe.html?id=%E5%AF%BC%E8%88%AA-header-%E9%A1%B5%E5%A4%B4--story-1 
 ---
 
 # Header 页头
@@ -24,6 +24,6 @@ import '@plutojs/header/build/index.css';
 ### Props配置
 | 参数 | 说明 | 类型 | 可选值 | 默认值 | 必填 |
 | :-- | :-- | :-- | :-- | :-- | :--: |
-| title | 标题 | String ||| 否 |
-| hide | 是否隐藏 | Boolean || false | 否 |
-| zIndex | 组件层级 | Number || 999 | 否 |
+| title | 标题 | String | - | - | 否 |
+| hide | 是否隐藏 | Boolean | - | false | 否 |
+| zIndex | 组件层级 | Number | - | 999 | 否 |

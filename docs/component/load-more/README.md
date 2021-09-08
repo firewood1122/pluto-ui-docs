@@ -1,9 +1,9 @@
 ---
-title: LoadMore 下拉加载
-exampleUrl: http://pluto.smallpig.cn/iframe.html?id=%E8%A7%86%E5%9B%BE%E7%BB%84%E4%BB%B6-loadmore-%E5%8A%A0%E8%BD%BD%E6%9B%B4%E5%A4%9A--story-1
+title: LoadMore 加载更多 
+exampleUrl: http://pluto.smallpig.cn/iframe.html?id=%E6%BB%9A%E5%8A%A8-loadmore-%E4%B8%8B%E6%8B%89%E5%8A%A0%E8%BD%BD--story-1
 ---
 
-# LoadMore 下拉加载
+# LoadMore 加载更多
 
 ### 安装
 ``` bash
@@ -34,7 +34,7 @@ import LoadMore from '@plutojs/load-more';
 ### Props配置
 | 参数 | 说明 | 类型 | 可选值 | 默认值 | 必填 |
 | :-- | :-- | :-- | :-- | :-- | :--: |
-| bodyScroll | 是否页面body滚动 | Boolean || true | 否 |
-| scrollThreshold | 滚动边界系数 | 小于或等于1的正小数 || 1 | 否 |
-| loadMore | 响应方法 | Function || - | 否 |
-| debounceTime | 防抖间隔时间 | number || 1000 | 否 |
+| bodyScroll | 是否页面body滚动 | Boolean | - | true | 否 |
+| scrollThreshold | 滚动边界系数 | 小于或等于1的正小数 | - | 1 | 否 |
+| loadMore | 响应方法 | Function | -| - | 否 |
+| debounceTime | 防抖间隔时间 | number | - | 1000 | 否 |

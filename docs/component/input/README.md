@@ -1,6 +1,6 @@
 ---
 title: Input 输入框
-exampleUrl: http://pluto.smallpig.cn/iframe.html?id=%E8%A1%A8%E5%8D%95%E7%BB%84%E4%BB%B6-input-%E8%BE%93%E5%85%A5%E6%A1%86--story-1
+exampleUrl: http://pluto.smallpig.cn/iframe.html?id=%E8%A1%A8%E5%8D%95-input-%E8%BE%93%E5%85%A5%E6%A1%86--story-1
 ---
 
 # Input 输入框
@@ -24,11 +24,11 @@ const [text, setText] = useState('');
 ### Props配置
 | 参数 | 说明 | 类型 | 可选值 | 默认值 | 必填 |
 | :-- | :-- | :-- | :-- | :-- | :--: |
-| type | 输入框类型 | String || text | 是 |
-| value | 输入内容 | String ||| 是 |
-| className | 样式名称 | String ||| 否 |
-| placeholder | 占位文字 | String ||| 否 |
-| onChange | 输入响应方法 | Function ||| 否 |
-| onFocus | 聚焦响应方法 | Function ||| 否 |
-| maxLength | 最大输入长度 | Number || - | 否 |
-| offsetTop | 顶部预留空间 | Number || 100 | 否 |
+| type | 输入框类型 | String | - | text | 是 |
+| value | 输入内容 | String | - | - | 是 |
+| className | 样式名称 | String | - | - | 否 |
+| placeholder | 占位文字 | String | - | - | 否 |
+| onChange | 输入响应方法 | Function | - | - | 否 |
+| onFocus | 聚焦响应方法 | Function | - | - | 否 |
+| maxLength | 最大输入长度 | Number | - | - | 否 |
+| offsetTop | 顶部预留空间 | Number | - | 100 | 否 |

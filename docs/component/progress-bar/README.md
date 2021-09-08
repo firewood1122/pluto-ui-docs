@@ -26,9 +26,9 @@ import '@plutojs/progress-bar/build/index.css';
 ### Props配置
 | 参数 | 说明 | 类型 | 可选值 | 默认值 | 必填 |
 | :-- | :-- | :-- | :-- | :-- | :--: |
-| startColor | 进度条起点颜色 | String || #6DC9FF | 否 |
-| endColor | 进度条终点颜色 | String || #3B99FF | 否 |
-| contentColor | 底部圆环颜色 | String || #EAEFF3 | 否 |
-| barLineWidth | 进度条宽度（物理像素） | Number || 20 | 否 |
-| contentLineWidth | 底部圆环宽度（物理像素） | Number || 32 | 否 |
-| percent | 进度条百分比 | Number || 100 | 否 |
+| startColor | 进度条起点颜色 | String | - | #6DC9FF | 否 |
+| endColor | 进度条终点颜色 | String | - | #3B99FF | 否 |
+| contentColor | 底部圆环颜色 | String | - | #EAEFF3 | 否 |
+| barLineWidth | 进度条宽度（物理像素） | Number | - | 20 | 否 |
+| contentLineWidth | 底部圆环宽度（物理像素） | Number | - | 32 | 否 |
+| percent | 进度条百分比 | Number | - | 100 | 否 |

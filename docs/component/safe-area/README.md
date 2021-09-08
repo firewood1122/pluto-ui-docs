@@ -1,6 +1,6 @@
 ---
 title: SafeArea 安全区域
-exampleUrl: http://pluto.smallpig.cn/iframe.html?id=%E8%A7%86%E5%9B%BE%E7%BB%84%E4%BB%B6-safearea-%E7%BB%84%E4%BB%B6--story-1
+exampleUrl: http://pluto.smallpig.cn/iframe.html?id=%E5%9F%BA%E7%A1%80-safearea-%E5%AE%89%E5%85%A8%E5%8C%BA%E5%9F%9F--story-1
 ---
 
 # SafeArea 安全区域
