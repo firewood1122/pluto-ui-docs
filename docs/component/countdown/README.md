@@ -24,5 +24,6 @@ import Countdown from '@plutojs/countdown';
 | 参数 | 说明 | 类型 | 可选值 | 默认值 | 必填 |
 | :-- | :-- | :-- | :-- | :-- | :--: |
 | leftSecond | 剩余时间(秒) | Number | - | - | 是 |
+| callback | 倒计时回调方法 | (secod: number) => void | - | - | 否 |
 | renderChildren | 内容构造方法 | (hour: number, min: number, second: number) => React.ReactNode | - | `${hour}小时${min}分${second}秒` | 否 |
 | done | 结束回调方法 | Function | - | - | 否 |
