@@ -28,6 +28,12 @@ import '@plutojs/video/build/index.css';
 | :-- | :-- | :-- | :-- | :-- | :--: |
 | coverUrl | 封面图片链接 | String | - | - | 是 |
 | videoUrl | 视频链接 | String | - | - | 是 |
+| fullscreen | 是否全屏 | Boolean | - | false | 否 |
+| fullscreenTips | 全屏提示 | String | - | - | 否 |
+| currentTime | 播放进度 | Number | - | 0 | 否 |
 | controls | 是否有控制条 | Boolean | - | true | 否 |
 | playsInline | 播放时局域播放 | Boolean | - | true | 否 |
 | onClose | 视频关闭回调方法 | Function | - | - | 否 |
+| onCloseFullscreenVideo | 全屏视频关闭回调方法 | (time: number) => void | - | - | 否 |
+| disableFast | 是否禁止快进 | Boolean | - | false | 否 |
+| disableFastCallback | 禁止快进回调方法 | () => void | - | - | 否 |
