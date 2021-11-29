@@ -45,12 +45,13 @@ Dialog.confirm("这是一个Confirm对话框，通常用于二次确认", () => 
 
 ### AlertOptions
 
-| 参数           | 说明             | 类型       | 可选值 | 默认值 | 必填 |
-| :------------- | :--------------- | :--------- | :----- | :----- | :--- |
-| text           | 提示内容         | String     | -      | -      | 是   |
-| customizeClass | 定制样式名称     | String     | -      | -      | 否   |
-| confirmText    | 确定按钮文案     | String     | -      | -      | 否   |
-| confirm        | 确定安钮响应方法 | () => void | -      | -      | 是   |
+| 参数                | 说明               | 类型       | 可选值 | 默认值 | 必填 |
+| :------------------ | :----------------- | :--------- | :----- | :----- | :--- |
+| text                | 提示内容           | String     | -      | -      | 是   |
+| customizeClass      | 定制样式名称       | String     | -      | -      | 否   |
+| confirmText         | 确定按钮文案       | String     | -      | -      | 否   |
+| confirm             | 确定安钮响应方法   | () => void | -      | -      | 是   |
+| closeOnClickOverlay | 点击背景关闭模态框 | Boolean    | -      | true   | 否   |
 
 ### AlertCustomizeOptions
 
@@ -61,11 +62,12 @@ Dialog.confirm("这是一个Confirm对话框，通常用于二次确认", () => 
 
 ### ConfirmOptions
 
-| 参数           | 说明             | 类型       | 可选值 | 默认值 | 必填 |
-| :------------- | :--------------- | :--------- | :----- | :----- | :--- |
-| text           | 提示内容         | String     | -      | -      | 是   |
-| customizeClass | 定制样式名称     | String     | -      | -      | 否   |
-| confirmText    | 确定按钮文案     | String     | -      | -      | 否   |
-| cancelText     | 取消按钮文案     | String     | -      | -      | 否   |
-| confirm        | 确定按钮响应方法 | () => void | -      | -      | 是   |
-| cancel         | 取消按钮响应方法 | () => void | -      | -      | 否   |
+| 参数                | 说明               | 类型       | 可选值 | 默认值 | 必填 |
+| :------------------ | :----------------- | :--------- | :----- | :----- | :--- |
+| text                | 提示内容           | String     | -      | -      | 是   |
+| customizeClass      | 定制样式名称       | String     | -      | -      | 否   |
+| confirmText         | 确定按钮文案       | String     | -      | -      | 否   |
+| cancelText          | 取消按钮文案       | String     | -      | -      | 否   |
+| confirm             | 确定按钮响应方法   | () => void | -      | -      | 是   |
+| cancel              | 取消按钮响应方法   | () => void | -      | -      | 否   |
+| closeOnClickOverlay | 点击背景关闭模态框 | Boolean    | -      | true   | 否   |

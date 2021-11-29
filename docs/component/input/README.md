@@ -32,3 +32,8 @@ const [text, setText] = useState('');
 | onFocus | 聚焦响应方法 | Function | - | - | 否 |
 | maxLength | 最大输入长度 | Number | - | - | 否 |
 | offsetTop | 顶部预留空间 | Number | - | 100 | 否 |
+
+### 实例方法
+| 名称 | 说明 | 参数 |
+| :-- | :-- | :--: |
+| clear | 清空输入框内容 | - |
